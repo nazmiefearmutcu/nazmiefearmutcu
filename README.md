@@ -13,14 +13,14 @@ I build the unglamorous middle layer — the part where a fine-tuned model has t
 | 🎛️ [**showMe**](https://github.com/nazmiefearmutcu/showMe) | Open-source macOS market cockpit. 12-timeframe consensus scan across 3 370 symbols, 23-indicator engine, FinBERT sentiment, X-sentiment via bundled RoBERTa, signed updater. | `Tauri` · `Python` · `React` · `Rust` |
 | 🕷️ [**awareness**](https://github.com/nazmiefearmutcu/awareness) | Local-first public-text ingestion engine. Common Crawl + RSS + GDELT → Apache Iceberg → DuckDB. One Python process, no Spark, no cloud. | `Python` · `Iceberg` · `DuckDB` |
 | 🧠 [**catchem**](https://github.com/nazmiefearmutcu/catchem) | Finance-relevance sidecar — turns RSS / web text into multi-labeled `FinancialImpactRecord` events with an analyst UI. | `FastAPI` · `Tauri` · `React` |
-| 🤖 [**TRADING-BOT**](https://github.com/nazmiefearmutcu/TRADING-BOT) | TBV1 — Python Binance Futures bot with Tkinter dashboard; macOS reference build + Windows packaged distribution. | `Python` · `FastAPI` · `Tkinter` |
+| 🤖 [**TRADING-BOT**](https://github.com/nazmiefearmutcu/TRADING-BOT) | TBV1 — Python crypto perpetual-futures bot with Tkinter dashboard; macOS reference build + Windows packaged distribution. | `Python` · `FastAPI` · `Tkinter` |
 | ⏰ [**such-a-good-clock**](https://github.com/nazmiefearmutcu/such-a-good-clock) | Themed clock + alarm + timer PWA / Electron app. [Live demo →](https://nazmiefearmutcu.github.io/such-a-good-clock/) | `JavaScript` · `Electron` · `PWA` |
 
 ---
 
 #### 🛠️ Stack I actually ship
 
-`Python` · `TypeScript` · `Rust` · `React` · `Tauri` · `FastAPI` · `DuckDB` · `Apache Iceberg` · `PyTorch` · `Transformers` · `ccxt` · `Binance API`
+`Python` · `TypeScript` · `Rust` · `React` · `Tauri` · `FastAPI` · `DuckDB` · `Apache Iceberg` · `PyTorch` · `Transformers` · `ccxt`
 
 ---
 
