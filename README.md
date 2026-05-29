@@ -1,4 +1,4 @@
-### Hi, I'm nazmi 👋
+### Hi, I'm Aylin
 
 **AI engineer** shipping **production ML** (FinBERT, RoBERTa, custom cross-attention) inside **native macOS sidecars**.
 
@@ -6,7 +6,7 @@ I build the unglamorous middle layer — the part where a fine-tuned model has t
 
 ---
 
-#### 🔥 Active projects
+#### Active projects
 
 | | | |
 |---|---|---|
