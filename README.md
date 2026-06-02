@@ -6,11 +6,9 @@ A fine-tuned model in a cloud notebook is a screenshot. The real work starts whe
 
 ---
 
-### How I decide what to ship
+### How I decide what to ship 
 
-- **Local-first.** Your laptop, your data, your CPU — not a rented GPU you're billed for by the minute.
-- **No cloud, no subscription.** Open source, no login wall, no metered API in the hot path.
-- **Paper-mode by default.** Anything that can place a real order starts in simulation. You opt into risk on purpose, never by accident.
+- I ship anything that I need. I don'n make them for only they be exist. 
 
 ---
 
