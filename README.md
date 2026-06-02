@@ -6,9 +6,9 @@ A fine-tuned model in a cloud notebook is a screenshot. The real work starts whe
 
 ---
 
-### How I decide what to ship 
+### How I decide what to ship
 
-- I ship anything that I need. I don't make them for only they be exist. 
+- I ship anything I need — I don't build things just so they exist.
 
 ---
 
@@ -16,11 +16,11 @@ A fine-tuned model in a cloud notebook is a screenshot. The real work starts whe
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| **[awareness](https://github.com/nazmiefearmutcu/awareness)** | Pulls the public web — Common Crawl, HF FineWeb, RSS, GDELT — onto your laptop and makes it queryable from DuckDB. One Python process. No Spark, no cloud. | `Python` · `Apache Iceberg` · `DuckDB` |
-| **[showMe](https://github.com/nazmiefearmutcu/showMe)** | A macOS trading terminal that scans 3,370 symbols across 12 timeframes to surface what's actually moving together. Runs on your machine. No subscription. | `Tauri` · `Python` · `React` · `Rust` |
-| **[TRADING-BOT](https://github.com/nazmiefearmutcu/TRADING-BOT)** | A crypto perpetual-futures bot that refuses to place an order until 15 indicators across 12 timeframes agree. Paper-mode by default. Packaged for macOS and Windows. | `Python` · `FastAPI` · `Tkinter` |
-| **[catchem](https://github.com/nazmiefearmutcu/catchem)** | Reads news and RSS, then tags each item by what it would move, which direction, and how soon. It grew out of an earlier [cross-attention news-impact model](https://github.com/nazmiefearmutcu/news_impact_v1). Lives on your laptop. | `FastAPI` · `Tauri` · `React` |
-| **[such-a-good-clock](https://github.com/nazmiefearmutcu/such-a-good-clock)** | The clock you'd actually leave fullscreen on a spare monitor. Six themes, alarms, timers, fully offline. [Live demo →](https://nazmiefearmutcu.github.io/such-a-good-clock/) | `JavaScript` · `Electron` · `PWA` |
+| **[awareness](https://github.com/nazmiefearmutcu/awareness)** | Build your own searchable archive of the public text web: backfill any past date window from Common Crawl, FineWeb and GDELT, then tail live RSS feeds and sitemaps for newly published pages. Slice it by date, domain, source or language — and reprints across forty URLs collapse to one canonical copy per story. | `Python` · `Apache Iceberg` · `DuckDB` |
+| **[showMe](https://github.com/nazmiefearmutcu/showMe)** | Sweep 3,370 instruments across 6 markets and 12 timeframes in one scan, get back a ranked shortlist of the highest-conviction setups, then chart, research and paper-trade them — 141 analyst functions reaching from SEC financials and dark-pool flow to FinBERT-scored news and auto-transcribed calls you can search and question. | `Tauri` · `Python` · `React` · `Rust` |
+| **[TRADING-BOT](https://github.com/nazmiefearmutcu/TRADING-BOT)** | Points to the handful of Binance USDT-perp coins where 15 indicators agree on all 12 timeframes at once — not one indicator's lucky guess — then trades the strongest one for you. Stop-loss, a daily-loss circuit breaker and a reverse-signal siren keep you out of trouble when the market turns. | `Python` · `FastAPI` · `Tkinter` |
+| **[catchem](https://github.com/nazmiefearmutcu/catchem)** | Stops you reading the news firehose by hand: every headline off ~53 finance feeds lands pre-tagged with what it moves, which way and how fast, across 8 asset classes and 22 reason codes — and it shows the exact evidence sentences behind each verdict, not a black-box number. It grew out of an earlier [cross-attention news-impact model](https://github.com/nazmiefearmutcu/news_impact_v1). | `FastAPI` · `Tauri` · `React` |
+| **[such-a-good-clock](https://github.com/nazmiefearmutcu/such-a-good-clock)** | Turns a spare monitor into a cinematic fullscreen clock that swaps its whole mood with one tap — Matrix rain, Blade Runner dust, Alien CRT — then doubles as your alarm and countdown timer, with chimes that ring even when there are no sound files. [Live demo →](https://nazmiefearmutcu.github.io/such-a-good-clock/) | `JavaScript` · `Electron` · `PWA` |
 
 ---
 
