@@ -1,30 +1,35 @@
-### Hi, I'm Aylin
+## Hi, I'm Aylin
 
-**AI engineer** shipping **production ML** (FinBERT, RoBERTa, custom cross-attention) inside **native macOS sidecars**.
+**AI engineer.** I ship production ML — FinBERT, RoBERTa, custom cross-attention — inside native macOS sidecars.
 
-I build the unglamorous middle layer — the part where a fine-tuned model has to actually run on a laptop, talk to a desktop UI, recover from a flaky API, and not melt the CPU.
-
----
-
-#### Active projects
-
-| | | |
-|---|---|---|
-| 🎛️ [**showMe**](https://github.com/nazmiefearmutcu/showMe) | **Trading terminal for macOS** — scans 3 370 symbols across 12 timeframes to surface what's moving together. Free + source-available; runs on your machine, no subscription. | `Tauri` · `Python` · `React` · `Rust` |
-| 🕷️ [**awareness**](https://github.com/nazmiefearmutcu/awareness) | **Public web → your laptop.** Backfills Common Crawl + HF FineWeb, live-tails RSS / sitemaps / GDELT; queryable from DuckDB. No Spark, no cloud. | `Python` · `Iceberg` · `DuckDB` |
-| 🧠 [**catchem**](https://github.com/nazmiefearmutcu/catchem) | **Reads news + RSS, tags each item** by what it would move (asset class), which direction, and how soon. Lives on your laptop. | `FastAPI` · `Tauri` · `React` |
-| 🤖 [**TRADING-BOT**](https://github.com/nazmiefearmutcu/TRADING-BOT) | **Trading bot that won't trade until 15 indicators across 12 timeframes agree.** Paper-mode by default. macOS + Windows packaged. | `Python` · `FastAPI` · `Tkinter` |
-| ⏰ [**such-a-good-clock**](https://github.com/nazmiefearmutcu/such-a-good-clock) | **A clock you'd actually want fullscreen** on a spare monitor. Six themes, alarms, timers; works offline. [Live demo →](https://nazmiefearmutcu.github.io/such-a-good-clock/) | `JavaScript` · `Electron` · `PWA` |
+A fine-tuned model in a cloud notebook is a screenshot. The real work starts when that model has to run on someone's actual laptop: talk to a desktop UI, survive a flaky API, stay under the CPU budget. That unglamorous middle layer is what I build — and it's why almost everything here runs entirely on the machine in front of you, no cloud, no subscription.
 
 ---
 
-#### 🛠️ Stack I actually ship
+### How I decide what to ship
+
+- **Local-first.** Your laptop, your data, your CPU — not a rented GPU you're billed for by the minute.
+- **No cloud, no subscription.** Open source, no login wall, no metered API in the hot path.
+- **Paper-mode by default.** Anything that can place a real order starts in simulation. You opt into risk on purpose, never by accident.
+
+---
+
+### Projects
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| **[awareness](https://github.com/nazmiefearmutcu/awareness)** | Pulls the public web — Common Crawl, HF FineWeb, RSS, GDELT — onto your laptop and makes it queryable from DuckDB. One Python process. No Spark, no cloud. | `Python` · `Apache Iceberg` · `DuckDB` |
+| **[showMe](https://github.com/nazmiefearmutcu/showMe)** | A macOS trading terminal that scans 3,370 symbols across 12 timeframes to surface what's actually moving together. Runs on your machine. No subscription. | `Tauri` · `Python` · `React` · `Rust` |
+| **[TRADING-BOT](https://github.com/nazmiefearmutcu/TRADING-BOT)** | A crypto perpetual-futures bot that refuses to place an order until 15 indicators across 12 timeframes agree. Paper-mode by default. Packaged for macOS and Windows. | `Python` · `FastAPI` · `Tkinter` |
+| **[catchem](https://github.com/nazmiefearmutcu/catchem)** | Reads news and RSS, then tags each item by what it would move, which direction, and how soon. It grew out of an earlier [cross-attention news-impact model](https://github.com/nazmiefearmutcu/news_impact_v1). Lives on your laptop. | `FastAPI` · `Tauri` · `React` |
+| **[such-a-good-clock](https://github.com/nazmiefearmutcu/such-a-good-clock)** | The clock you'd actually leave fullscreen on a spare monitor. Six themes, alarms, timers, fully offline. [Live demo →](https://nazmiefearmutcu.github.io/such-a-good-clock/) | `JavaScript` · `Electron` · `PWA` |
+
+---
+
+### Stack I actually ship
 
 `Python` · `TypeScript` · `Rust` · `React` · `Tauri` · `FastAPI` · `DuckDB` · `Apache Iceberg` · `PyTorch` · `Transformers` · `ccxt`
 
 ---
 
-#### 📊 Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nazmiefearmutcu&show_icons=true&hide_border=true&include_all_commits=true&count_private=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nazmiefearmutcu&layout=compact&hide_border=true&langs_count=8)
+<sub>Building since September 2025 · [@Aylinnnnnnn877](https://x.com/Aylinnnnnnn877)</sub>
