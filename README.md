@@ -8,7 +8,7 @@ A fine-tuned model in a cloud notebook is a screenshot. The real work starts whe
 
 ### How I decide what to ship 
 
-- I ship anything that I need. I don'n make them for only they be exist. 
+- I ship anything that I need. I don't make them for only they be exist. 
 
 ---
 
