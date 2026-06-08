@@ -31,4 +31,4 @@ A fine-tuned model in a cloud notebook is a screenshot. The real work starts whe
 
 ---
 
-<sub>Building since September 2025 · [@Aylinnnnnnn877](https://x.com/Aylinnnnnnn877)</sub>
+<sub>Building since September 2025 · [@Aylinnnnnn877](https://x.com/aylinnnnnn877)</sub>
