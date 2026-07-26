@@ -1,3 +1,3 @@
-# Coalesce every commit identity in this repo to Aylin's canonical identity,
+# Coalesce every commit identity in this repo to a single canonical identity,
 # so the GitHub contributors graph shows a single author.
-Aylin <nazmiefearmutcu@posta.mu.edu.tr> <aylin@nazmiefearmutcu.dev>
+Nazmi Efe Armutcu <nazmiefearmutcu@posta.mu.edu.tr> <aylin@nazmiefearmutcu.dev>
